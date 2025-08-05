@@ -123,19 +123,4 @@ while True:
 
     if (ball.dx < 0) and (-350 < ball.xcor() < -340) and (paddle_a.ycor() + 50 > ball.ycor() > paddle_a.ycor() - 50):
         ball.setx(-340)
-        ball.dx *= -1 
- 
-# Close the window on click
-win.mainloop()  
-# End of the Pong game code
-# This code creates a simple Pong game using the turtle graphics library in Python. 
-# The game features two paddles controlled by the players and a ball that bounces between them.
-# The game keeps track of the score and updates it as players score points. 
-# The game runs in a loop until the window is closed.
-
-# This code is a simple implementation of the Snake, Water, Gun game.
-# It allows the user to play against a computer opponent, with choices represented by strings.
-
-if (ball.dx < 0) and (-350 < ball.xcor() < -340) and (paddle_a.ycor() + 50 > ball.ycor() > paddle_a.ycor() - 50):
-        ball.setx(-340)
-        ball.dx *= -1 
+        ball.dx *= -1
